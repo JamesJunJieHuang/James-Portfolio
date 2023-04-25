@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev2": "node server/server.js",
+    "build2": "next build",
+    "start2": "NODE_ENV=production node server/server.js"
   },
   "dependencies": {
     "@portabletext/react": "^2.0.2",
