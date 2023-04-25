@@ -5,11 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "dev2": "node server/server.js",
-    "build2": "next build",
-    "start2": "NODE_ENV=production node server/server.js"
+    "start": "node server/server.js",
+    "lint": "next lint"
   },
   "dependencies": {
     "@portabletext/react": "^2.0.2",
